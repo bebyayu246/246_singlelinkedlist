@@ -55,6 +55,9 @@ class LinkedList
 
         nodeBaru->next = current;
         previos->next = nodeBaru;
-
         }
-}
+        bool listEmpaty()
+        {
+            return (START == NULL);
+        }
+};
